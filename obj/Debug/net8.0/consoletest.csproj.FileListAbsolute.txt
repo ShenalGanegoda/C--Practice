@@ -1,0 +1,14 @@
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/bin/Debug/net8.0/consoletest
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/bin/Debug/net8.0/consoletest.deps.json
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/bin/Debug/net8.0/consoletest.runtimeconfig.json
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/bin/Debug/net8.0/consoletest.dll
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/bin/Debug/net8.0/consoletest.pdb
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/obj/Debug/net8.0/consoletest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/obj/Debug/net8.0/consoletest.AssemblyInfoInputs.cache
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/obj/Debug/net8.0/consoletest.AssemblyInfo.cs
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/obj/Debug/net8.0/consoletest.csproj.CoreCompileInputs.cache
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/obj/Debug/net8.0/consoletest.dll
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/obj/Debug/net8.0/refint/consoletest.dll
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/obj/Debug/net8.0/consoletest.pdb
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/obj/Debug/net8.0/consoletest.genruntimeconfig.cache
+/Users/shenalganegoda/Documents/Work/Learn/DotnetDev/consoletest/obj/Debug/net8.0/ref/consoletest.dll
