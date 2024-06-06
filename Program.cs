@@ -6,7 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 namespace consoletest {
     class Program {
         static void Main(string[] args){
-            PrintSpaceAndBlanks();
+            CelciusToKelvinAndFahrenheit();
         }
 
         static void SayHi(){
@@ -50,5 +50,16 @@ namespace consoletest {
         Console.WriteLine("{0}{0}{0}{0}" , number);
     }
 
+    static void CelciusToKelvinAndFahrenheit(){
+        Console.WriteLine("Enter Celcius value here: ");
+        double c = Convert.ToDouble(Console.ReadLine()); // Input of the Celcius value.
+
+        double k = c + 273.15; // Kelvin calculation
+        double f = (c * 9/5) + 32; // Fahrenheit calculation
+
+        Console.WriteLine("Kelvin value: {0} \nFahrenheit value: {1}", k , f);
+
+        
+    }
     } 
 }
