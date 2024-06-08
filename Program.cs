@@ -6,7 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 namespace consoletest {
     class Program {
         static void Main(string[] args){
-            CelciusToKelvinAndFahrenheit();
+            FirstAndLastCharSwap("str");
         }
 
         static void SayHi(){
@@ -58,8 +58,27 @@ namespace consoletest {
         double f = (c * 9/5) + 32; // Fahrenheit calculation
 
         Console.WriteLine("Kelvin value: {0} \nFahrenheit value: {1}", k , f);
-
-        
     }
+
+    static void RemoveCharacterFromString(){
+        string str = "Csharp";
+        string newString = "";
+        Console.WriteLine("Enter index here: ");
+        int index = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 0; i < str.Length; i++) {
+            if (i != index) {
+                newString += str[i];
+            }
+        }
+
+        Console.WriteLine("New String with removed index: {0}" , newString);
+    }
+
+    static void FirstAndLastCharSwap(string str) {
+        Char firstChar = str[0]; // Extracting first character
+        Char lastChar = str[str.Length - 1]; // Extracting last character
+    }
+    
     } 
 }
