@@ -6,7 +6,8 @@ using System.Security.Cryptography.X509Certificates;
 namespace consoletest {
     class Program {
         static void Main(string[] args){
-            FirstAndLastCharSwap("str");
+            string str = "LSEG";
+            FirstAndLastCharSwap(str);
         }
 
         static void SayHi(){
@@ -76,8 +77,10 @@ namespace consoletest {
     }
 
     static void FirstAndLastCharSwap(string str) {
-        Char firstChar = str[0]; // Extracting first character
-        Char lastChar = str[str.Length - 1]; // Extracting last character
+        // Using of the Substring() method.
+
+        string newString = str.Substring(str.Length - 1) + str.Substring(1 , str.Length - 2) + str.Substring(0 , 1);
+        Console.WriteLine("New string: {0}" , newString);
     }
     
     } 
