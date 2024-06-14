@@ -5,9 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace consoletest {
     class Program {
-        static void Main(string[] args){
-            string str = "LSEG";
-            FirstAndLastCharSwap(str);
+        static void Main(string[] args){            
         }
 
         static void SayHi(){
@@ -82,6 +80,35 @@ namespace consoletest {
         string newString = str.Substring(str.Length - 1) + str.Substring(1 , str.Length - 2) + str.Substring(0 , 1);
         Console.WriteLine("New string: {0}" , newString);
     }
+
+    static void LongestWordInString(){
+        string str = "Find the longest word in a string"; 
+        int wordCount = 0; // Variable to hold the word count.
+        int wordNumber = 0; // Variable to hold the longest word position.
+        int spaceCount = 0; // Variable to hold the space count.
+
+        for (int i = 0; i < str.Length; i++){ // Looping through the sentence to find the longest word. 
+            wordCount++; // Increasing the wordCount.
+            if(i == ' '){ // Checks for blank spaces.
+                wordCount = 0; // Descreasing the wordCount to 0 for the next word count.
+                wordNumber++; // Increasing the wordNumber to keep track of the word position.
+            }    
+        }
+
+        for (int i = 0; i < str.Length; i++){ // Printing out the longest word
+            if (i == ' ')
+            {
+                spaceCount++; // Incrementing the space count at each space hit
+            }    
+
+            if (spaceCount == wordNumber)
+            {
+                
+            }
+        }
+
+    } 
+
     
     } 
 }
